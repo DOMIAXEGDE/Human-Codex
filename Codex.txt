@@ -139,7 +139,7 @@ construction == preferred_proof_engine
 Rather than rewriting all 64 axioms inside every script, v2 imports them as a standard library.
 
 ```mhcd
-import MHCD.AXIOMS.000_063
+import MHCD.AXIOMS.000_065
 import MHCD.BOOLEAN
 import MHCD.LAMBDA
 import MHCD.COMPETENCE_SPACE
@@ -150,7 +150,7 @@ The full axiom set is treated as:
 
 ```mhcd
 axiom_set FULL_MHCD = {
-    000..063
+    000..065
 }
 ```
 
@@ -179,7 +179,7 @@ type List<T>           = ordered collection
 type Set<T>            = unordered collection
 type Map<K,V>          = key-value collection
 
-type AxiomID           = 000..063
+type AxiomID           = 000..065
 type Subject           = living information-bearing system
 type Mind              = internal meaning processor
 type Body              = procedural competence store
@@ -1036,7 +1036,7 @@ mhcd_project/
 ```json
 {
   "subject": "Dominic Alexander Cooper",
-  "axioms": "000..063",
+  "axioms": "000..065",
   "enforced": ["014", "015"],
   "competence_space": {
     "axes": [
